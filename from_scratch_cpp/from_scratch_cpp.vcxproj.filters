@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\optimizers">
+      <UniqueIdentifier>{5de9793e-7a51-4c62-9a00-9d8e05ac4992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\losses">
+      <UniqueIdentifier>{a4751441-1f2f-48f6-a6c1-749c22a0ac6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\layers">
+      <UniqueIdentifier>{3fc7779c-2921-4e15-96e2-fff7d8e56e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\math">
+      <UniqueIdentifier>{396ad8d6-fb63-4df5-ae64-b4212ca5ab00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\data">
+      <UniqueIdentifier>{c9d2ebda-fd09-4bbb-8570-1a519ffd7e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\data">
+      <UniqueIdentifier>{42528ce6-481b-4f8e-8e4b-f31bb90da9eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\math">
+      <UniqueIdentifier>{1409c424-d8cf-4f53-b5ab-e1b2626a83da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\layers">
+      <UniqueIdentifier>{78b69b97-b8f5-48fe-8e80-d2bff4fb0022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\losses">
+      <UniqueIdentifier>{15d29df2-5d4b-4a61-b62c-8fa6a243180b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\optimizers">
+      <UniqueIdentifier>{03c07515-8501-4160-b0ce-b02a67149fce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="batch.cpp">
+      <Filter>Исходные файлы\data</Filter>
+    </ClCompile>
+    <ClCompile Include="data_loader.cpp">
+      <Filter>Исходные файлы\data</Filter>
+    </ClCompile>
+    <ClCompile Include="layer.cpp">
+      <Filter>Исходные файлы\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layer_linear.cpp">
+      <Filter>Исходные файлы\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layer_sigmod.cpp">
+      <Filter>Исходные файлы\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="layer_tanh.cpp">
+      <Filter>Исходные файлы\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="linalg.cpp">
+      <Filter>Исходные файлы\math</Filter>
+    </ClCompile>
+    <ClCompile Include="probs.cpp">
+      <Filter>Исходные файлы\math</Filter>
+    </ClCompile>
+    <ClCompile Include="tensor.cpp">
+      <Filter>Исходные файлы\math</Filter>
+    </ClCompile>
+    <ClCompile Include="loss.cpp">
+      <Filter>Исходные файлы\losses</Filter>
+    </ClCompile>
+    <ClCompile Include="loss_softmax_cross_entropy.cpp">
+      <Filter>Исходные файлы\losses</Filter>
+    </ClCompile>
+    <ClCompile Include="loss_sse.cpp">
+      <Filter>Исходные файлы\losses</Filter>
+    </ClCompile>
+    <ClCompile Include="optimizer_sgd.cpp">
+      <Filter>Исходные файлы\optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="optimizer_momentum.cpp">
+      <Filter>Исходные файлы\optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="optimizer.cpp">
+      <Filter>Исходные файлы\optimizers</Filter>
+    </ClCompile>
+    <ClCompile Include="sample.cpp">
+      <Filter>Исходные файлы\data</Filter>
+    </ClCompile>
+    <ClCompile Include="sequential.cpp">
+      <Filter>Исходные файлы\layers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="batch.h">
+      <Filter>Файлы заголовков\data</Filter>
+    </ClInclude>
+    <ClInclude Include="data_loader.h">
+      <Filter>Файлы заголовков\data</Filter>
+    </ClInclude>
+    <ClInclude Include="sample.h">
+      <Filter>Файлы заголовков\data</Filter>
+    </ClInclude>
+    <ClInclude Include="linalg.h">
+      <Filter>Файлы заголовков\math</Filter>
+    </ClInclude>
+    <ClInclude Include="probs.h">
+      <Filter>Файлы заголовков\math</Filter>
+    </ClInclude>
+    <ClInclude Include="tensor.h">
+      <Filter>Файлы заголовков\math</Filter>
+    </ClInclude>
+    <ClInclude Include="layer.h">
+      <Filter>Файлы заголовков\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layer_linear.h">
+      <Filter>Файлы заголовков\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layer_sigmod.h">
+      <Filter>Файлы заголовков\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="layer_tanh.h">
+      <Filter>Файлы заголовков\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="sequential.h">
+      <Filter>Файлы заголовков\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="loss.h">
+      <Filter>Файлы заголовков\losses</Filter>
+    </ClInclude>
+    <ClInclude Include="loss_softmax_cross_entropy.h">
+      <Filter>Файлы заголовков\losses</Filter>
+    </ClInclude>
+    <ClInclude Include="loss_sse.h">
+      <Filter>Файлы заголовков\losses</Filter>
+    </ClInclude>
+    <ClInclude Include="optimizer.h">
+      <Filter>Файлы заголовков\optimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="optimizer_momentum.h">
+      <Filter>Файлы заголовков\optimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="optimizer_sgd.h">
+      <Filter>Файлы заголовков\optimizers</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
